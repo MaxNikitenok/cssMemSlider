@@ -117,3 +117,20 @@ input[name="rb"] {
     background-color: brown;
     transform: scale(1.1);
 }
+
+@media (max-width: 767px) {
+    .slide {
+        max-width: 100%;
+    }
+    .slide img{
+        max-width: 90%;
+    }
+}
+@media (max-width: 540px) {
+    .text-nav-wrapper {
+        flex-direction: column-reverse;
+    }
+    .nav-wrapper {
+        justify-content: center;
+    }
+}
