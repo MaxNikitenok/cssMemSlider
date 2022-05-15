@@ -41,6 +41,21 @@ input[name="rb"] {
     border-radius: 0.5rem;
     box-shadow: 0px 0px 10px black;
 }
+#rb1:checked ~ .slider {
+    margin-left: 0;
+}
+#rb2:checked ~ .slider {
+    margin-left: -100%;
+}
+#rb3:checked ~ .slider {
+    margin-left: -200%;
+}
+#rb4:checked ~ .slider {
+    margin-left: -300%;
+}
+#rb5:checked ~ .slider {
+    margin-left: -400%;
+}
 .text-nav-wrapper {
     display: flex;
     max-width: 45.25rem;
@@ -64,6 +79,26 @@ input[name="rb"] {
     opacity: 0;
     font-family: 'Caveat', cursive;
     font-size: 2rem; 
+}
+#rb1:checked ~ .text-nav-wrapper .text-wrapper #des1 {
+    margin: 0;
+    opacity: 1;
+}
+#rb2:checked ~ .text-nav-wrapper .text-wrapper #des2 {
+    margin: 0;
+    opacity: 1;
+}
+#rb3:checked ~ .text-nav-wrapper .text-wrapper #des3 {
+    margin: 0;
+    opacity: 1;
+}
+#rb4:checked ~ .text-nav-wrapper .text-wrapper #des4 {
+    margin: 0;
+    opacity: 1;
+}
+#rb5:checked ~ .text-nav-wrapper .text-wrapper #des5{
+    margin: 0;
+    opacity: 1;
 }
 .nav-wrapper {
     display: flex;
